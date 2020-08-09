@@ -3,7 +3,6 @@ permalink: /discography.html
 ---
 <HTML>
 <body style="background-color:#333333;">
-H
-<div id='rg_embed_link_4891490' class='rg_embed_link' data-song-id='4891490'>Read <a href='https://genius.com/Jay-rizuri-red-light-lyrics'>“Red Light” by Jay Rizuri</a> on Genius</div> <script crossorigin src='//genius.com/songs/4891490/embed.js'></script>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3823527005/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://jayrizuri.bandcamp.com/track/red-light">Red Light by JayRizuri</a></iframe>
 </body>
 </HTML>
