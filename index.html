@@ -23,10 +23,13 @@
                     width: 50px
                     height 50px
                 }
-
-                .iconS {
-                    color: white;
-                    font-size: 1.4em
+                .stroke {
+                  color: black;
+                  text-shadow: -2px -2px 0 #00FEF3, 2px -2px 0 #00FEF3, -2px 2px 0 #00FEF3, 2px 2px 0 #00FEF3;
+                }
+                
+                .icon{
+                    color:00FEF3; 
                 }
             </style>
         <!-- Required meta tags -->
@@ -80,33 +83,84 @@
                 height: 10.5rem;
                 width: 10.5rem;
             }
+            .nav-item a {
+                padding: .05rem 0.1rem;
+            }
         </style>
-    
     </head>
-    <div style="background-color: #252525;"class="header-brand topnav">
-                <div style="color:white;" class="nav-item no-hover">
-                    <a><h6 class="title">Home</h6></a>
-                </div>
-                <div class="nav-item no-hover" >
-                    <icon class="iconS">
-                        <i class="fab fa-discord"></i>
-                    </icon>
-                </div>
-                <div class="nav-item nav-btn" id="header-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+    <div style=";background-color: #252525;" class="header header-fixed unselectable header-animated">
+    <div class="header-brand">
+        <div class="nav-item no-hover">
+            <a><h6 class="title">Jay Rizuri</h6></a>
+        </div>
+        <div class="nav-item">
+            <a href="https://github.com/JayRizuri">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-github"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="https://discord.gg/f7KXW5R">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-discord"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="https://twitter.com/jayrizuri">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-twitter"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="https://twitch.tv/jayrizuri">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-twitch"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="#">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-youtube"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="#">
+                <span class="icon">
+                    <i class="fas fa-wrapper fa-compact-disc"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item nav-btn" id="header-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="header-nav" style="background-color: #252525;" id="header-menu">
+        <!-- Other nav categories, controls, nav-items, etc. This is hidden on touch enabled devices -->
+    </div>
+</div>
     <body></body>
-    <figure class="avatar avatar--xlarge1 fade-in-left" style="background: #80cee1">
-        <figure class="avatar avatar--xlarge fade-in-left" style="background: #80cee1">
-            <img style="max-width: 165%;height: 100%;position: relative;right: 55px;"src="https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/RizuriMinimal.png" />
-        </figure>
-    </figure>
-    <div class="divider animated fade-in-left"></div>
-    <h1 class="u-text-center nunito font-light slide-left">Jay Rizuri</h1>
-    <h3 class="u-text-center nunito font-light slide-left1">Music Artist | Developer</h3>
+    <div style="height: 70vh; background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg);" id="splash-img" class="hero fullscreen hero-img parallax-img">
+    <div class="hero-body">
+        <div class="content u-text-center">
+            <figure class="avatar avatar--xlarge1 fade-in-left" style="background: #00FEF3">
+                <figure class="avatar avatar--xlarge fade-in-left" style="background: #00FEF3">
+                    <img style="max-width: 165%;height: 100%;position: relative;right: 55px;"src="https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/RizuriMinimal.png" />
+                </figure>
+            </figure>
+            <h1 class="stroke slide-left uppercase title">Jay Rizuri</h1>
+            <h3 class="stroke slide-left1 uppercase sub-title ">Music Artist / Developer</h3>
+        </div>
+    </div>
+</div>
+    <br>
+    <h4 class="u-text-center u-center animated fadeIns">About Me</h4>
     <div class="u-text-center u-center animated fadeIns">I started coding in around 2017. I started making music in 2016.<br>
         I didn't really do much with coding, just made a few small games.<br>
     </div>
