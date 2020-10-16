@@ -12,7 +12,13 @@
 
             <style>
                 /* set styles for icons */
-
+                
+                .slide-left{animation:slide-in-left 0.6s cubic-bezier(.25,.46,.45,.94)}
+                @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+               .slide-left1{-webkit-animation:slide-in-left 0.6s cubic-bezier(.25,.46,.45,.94) .1s;animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) .1s}
+                @-webkit-keyframes slide-left1{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+                .fade-in-left{-webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}
+                @-webkit-keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
                 .iconA {
                     width: 50px
                     height 50px
@@ -60,6 +66,20 @@
             .head {
                 background-color: #343434;
             }
+            .avatar.avatar--xlarge {
+                position: relative;
+                top: 4px;
+                font-size: 10rem;
+                height: 10rem;
+                width: 10rem;
+            }
+            .avatar.avatar--xlarge1 {
+                position: relative;
+                top: 15px;
+                font-size: 10.5rem;
+                height: 10.5rem;
+                width: 10.5rem;
+            }
         </style>
     
     </head>
@@ -79,14 +99,15 @@
                 </div>
             </div>
     <body></body>
-    <div class="header head u-center">
-        <img width=50%; src="https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/RizuriMinimal.png">
-    </div>
-    <div class="divider"></div>
-    <h1 class="u-text-center nunito font-light">Jay Rizuri</h1>
-    <h3 class="u-text-center nunito font-light">Music Artist | Developer</h3>
-    <div class="u-center" style="text-align:center;">
-        I started coding in around 2017. I started making music in 2016.<br>
+    <figure class="avatar avatar--xlarge1 fade-in-left" style="background: #80cee1">
+        <figure class="avatar avatar--xlarge fade-in-left" style="background: #80cee1">
+            <img style="max-width: 165%;height: 100%;position: relative;right: 55px;"src="https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/RizuriMinimal.png" />
+        </figure>
+    </figure>
+    <div class="divider animated fade-in-left"></div>
+    <h1 class="u-text-center nunito font-light slide-left">Jay Rizuri</h1>
+    <h3 class="u-text-center nunito font-light slide-left1">Music Artist | Developer</h3>
+    <div class="u-text-center u-center animated fadeIns">I started coding in around 2017. I started making music in 2016.<br>
         I didn't really do much with coding, just made a few small games.<br>
     </div>
 </html>
