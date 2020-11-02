@@ -1,11 +1,238 @@
----
-permalink: /discography.html
----
-<HTML>
-<body style="background-color:#333333;">
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3823527005/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://jayrizuri.bandcamp.com/track/red-light">Red Light by JayRizuri</a></iframe>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=1545979852/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://jayrizuri.bandcamp.com/track/rising-up">Rising up by JayRizuri</a></iframe>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3537458485/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://jayrizuri.bandcamp.com/album/darkness">Darkness by JayRizuri</a></iframe>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=678373328/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://jayrizuri.bandcamp.com/track/undercover">Undercover by JayRizuri</a></iframe> 
-</body>
-</HTML>
+<doctype html>
+<html lang="en">
+
+    <!-- Bootstrap -->
+ 
+    <head>
+        <link rel="icon" href="https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/RizuriMinimal1.jpeg">
+
+            <!-- load icons -->
+    
+            <script src="https://kit.fontawesome.com/29f9977088.js" crossorigin="anonymous"></script>
+
+            <style>
+                /* set styles for icons */
+                
+                .slide-left{animation:slide-in-left 0.6s cubic-bezier(.25,.46,.45,.94)}
+                @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+               .slide-left1{-webkit-animation:slide-in-left 0.6s cubic-bezier(.25,.46,.45,.94) .1s;animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) .1s}
+                @-webkit-keyframes slide-left1{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+                .fade-in-left{-webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}
+                @-webkit-keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+                .iconA {
+                    width: 50px
+                    height 50px
+                }
+                .stroke {
+                  color: black;
+                  text-shadow: -2px -2px 0 #00FEF3, 2px -2px 0 #00FEF3, -2px 2px 0 #00FEF3, 2px 2px 0 #00FEF3;
+                }
+                
+                .icon{
+                    color:00FEF3; 
+                }
+            </style>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+
+        <!-- Load Bootstrap -->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>        
+        <link rel="stylesheet" href="https://unpkg.com/cirrus-ui@0.5.5/dist/cirrus.min.css">
+        
+        
+        <style>
+            .selector-for-some-widget {
+              box-sizing: content-box;
+            }
+            :root {
+              --main-bg-color: #34343434;
+              --main-body-element-color: #252525;
+            }
+            body {
+                background-color: #343434;
+                color: white;
+                line-height: 1.8;
+                font-size: 1rem;
+                font-weight: 400;
+
+            }
+            nunito {
+            font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+                letter-spacing: .01rem;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+            }
+            .head {
+                background-color: #343434;
+            }
+            .avatar.avatar--xlarge {
+                position: relative;
+                top: 4px;
+                font-size: 10rem;
+                height: 10rem;
+                width: 10rem;
+            }
+            .avatar.avatar--xlarge1 {
+                position: relative;
+                top: 15px;
+                font-size: 10.5rem;
+                height: 10.5rem;
+                width: 10.5rem;
+            }
+            .nav-item a {
+                padding: .05rem 0.1rem;
+            }
+        </style>
+    </head>
+    <div style=";background-color: #252525;" class="header header-fixed unselectable header-animated">
+    <div class="header-brand">
+        <div class="nav-item no-hover">
+            <a><h6 class="title">Jay Rizuri</h6></a>
+        </div>
+        <div class="nav-item">
+            <a href="https://github.com/JayRizuri">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-github"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="https://discord.gg/f7KXW5R">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-discord"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="https://twitter.com/jayrizuri">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-twitter"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="https://twitch.tv/jayrizuri">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-twitch"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="#">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-youtube"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="#">
+                <span class="icon">
+                    <i class="fas fa-wrapper fa-compact-disc"></i>
+                </span>
+            </a>
+        </div>
+        <div class="nav-item nav-btn" id="header-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="header-nav" style="background-color: #252525;" id="header-menu">
+        <!-- Other nav categories, controls, nav-items, etc. This is hidden on touch enabled devices -->
+    </div>
+</div>
+    <body></body>
+    <div style="height: 40vh; background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg);" id="splash-img" class="hero fullscreen hero-img parallax-img">
+    <div class="hero-body"style="position:relative;top:10%;">
+        <div class="content u-text-center">
+            <figure class="avatar avatar--xlarge1 fade-in-left" style="background: #00FEF3">
+                <figure class="avatar avatar--xlarge fade-in-left" style="background: #00FEF3">
+                    <img style="max-width: 200%;height: 200%;position: relative;right: 20px;"src="https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/9E792DF5-8CDA-4892-AF13-0DE2A8EFD3C6.png" />
+                </figure>
+            </figure>
+        </div>
+    </div>
+</div>
+    <br>
+    <h4 class="u-center animated fadeIns">Discography</h4><div class="divider"></div>
+    <div class="grid grid-cols-2 grid-gap-5 u-center">
+    <div class="c" >
+            <div class="u-center">
+                 <img style="border-style:solid;"src="https://i.ytimg.com/vi/FhdoUOkWTGc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBGntjbZXyGuUsxs2yxZqSkM1QdTw"/>
+                 <a class="u-text-center"  style="position:relative;left:10px;">
+                     <h6 style="position:relative;bottom:5px;">In The Future</h6>
+                     <div style="position:relative;bottom:10px;" class="tag-container">
+                     <div class="tag tag--link">2020</div>
+                     <div class="tag tag--link">EDM</div>
+                     </div>
+                 </a>
+            </div>
+    </div>
+    <div class="c">
+        <div class="u-center">
+        <img style="border-style:solid;"src="https://i.ytimg.com/vi/ZtmAvqqnWE0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD4FiLhXQXsl0PCQDkWqFxQQX2zrw"/>
+        <a class="u-text-center"  style="position:relative;left:10px;">
+            <h6 style="position:relative;bottom:5px;">Just A Moment</h6>
+            <div style="position:relative;bottom:10px;" class="tag-container">
+                <div class="tag tag--link">2020</div>
+                <div class="tag tag--link">Dubstep</div>
+            </div>
+        </a>
+    </div>
+    </div>
+    <div class="c">
+        <div class="u-center">
+        <img style="border-style:solid;"src="https://i.ytimg.com/vi/uyhnz1ly3a8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB4Xdxg6sN3-vuW5pqDuheMw6SCvg"/>
+        <a class="u-text-center"  style="position:relative;left:10px;">
+            <h6 style="position:relative;bottom:5px;">Still in it</h6>
+            <div style="position:relative;bottom:10px;" class="tag-container">
+                <div class="tag tag--link">2020</div>
+                <div class="tag tag--link">EDM</div>
+            </div>
+        </a>
+    </div>
+    </div>
+    <div class="c">
+        <div style="position:relative;left:40px;" class="u-center">
+        <img style="border-style:solid;"src="https://i.ytimg.com/an_webp/V3M2rCmgK0o/mqdefault_6s.webp?du=3000&sqp=CLrwgP0F&rs=AOn4CLA9zVaGBW_n2Z9I3CJsCVLflgqFsA"/>
+        <a class="u-text-center"  style="position:relative;left:20px;">
+            <h6 style="position:relative;bottom:5px;">FNAF 4 Song Remix </h6>
+            <div style="position:relative;bottom:10px;" class="tag-container">
+                <div class="tag tag--link">2020</div>
+                <div class="tag tag--link">Dubstep</div>
+                <div class="tag tag--link">Remix</div>
+            </div>
+        </a>
+    </div>
+    </div>
+    <div class="c">
+        <div style="position:relative;right:25px;" class="u-center">
+            <img style="border-style:solid;"src="https://i.ytimg.com/vi/LV3QFSsM5tc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBO-zciceS8Ksg82K9IgDCW20pINw"/>
+            <a class="u-text-center"  style="position:relative;left:10px;">
+                <h6 style="position:relative;bottom:5px;">Float </h6>
+                <div style="position:relative;bottom:10px;" class="tag-container">
+                    <div class="tag tag--link">2020</div>
+                    <div class="tag tag--link">EDM</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="c">
+        <div class="u-center">
+            <img style="border-style:solid;"src="https://i.ytimg.com/vi/U6kyF8aQkpc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLALSL1oy_OGaa9_0RMgHDUbqpN4fA"/>
+            <a class="u-text-center"  style="position:relative;left:50px;">
+                <h6 style="position:relative;bottom:5px;">Trapped </h6>
+                <div style="position:relative;bottom:10px;" class="tag-container">
+                    <div class="tag tag--link">2020</div>
+                    <div class="tag tag--link">Dubstep</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+    <br>
+</html>
