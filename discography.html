@@ -27,7 +27,34 @@
                   color: black;
                   text-shadow: -2px -2px 0 #00FEF3, 2px -2px 0 #00FEF3, -2px 2px 0 #00FEF3, 2px 2px 0 #00FEF3;
                 }
-                
+                .divTable{
+                    display: table;
+                }
+                .divTableRow {
+                    display: table-row;
+                }
+                .divTableHeading {
+                    background-color: #EEE;
+                    display: table-header-group;
+                }
+                .divTableCell, .divTableHead {
+                    border: 3px solid #343434;
+                    display: table-cell;
+                    padding: 20px 10px;
+                }
+                .divTableHeading {
+                    background-color: #343434;
+                    display: table-header-group;
+                    font-weight: bold;
+                }
+                .divTableFoot {
+                    background-color: #343434;
+                    display: table-footer-group;
+                    font-weight: bold;
+                }
+                .divTableBody {
+                    display: table-row-group;
+                }
                 .icon{
                     color:00FEF3; 
                 }
@@ -88,10 +115,11 @@
             }
         </style>
     </head>
+    
     <div style=";background-color: #252525;" class="header header-fixed unselectable header-animated">
     <div class="header-brand">
-        <div class="nav-item no-hover">
-            <a><h6 class="title">Jay Rizuri</h6></a>
+        <div class="nav-item">
+            <a style="color:#fff" href="https://jayrizuri.github.io/"><h6 class="title">Jay Rizuri</h6></a>
         </div>
         <div class="nav-item">
             <a href="https://github.com/JayRizuri">
@@ -101,7 +129,7 @@
             </a>
         </div>
         <div class="nav-item">
-            <a href="https://discord.gg/f7KXW5R">
+            <a href="https://discord.plus/sapphire">
                 <span class="icon">
                     <i class="fab fa-wrapper fa-discord"></i>
                 </span>
@@ -122,7 +150,7 @@
             </a>
         </div>
         <div class="nav-item">
-            <a href="#">
+            <a href="https://www.youtube.com/channel/UCsmzP_YvmxM3zcxJ7TT-H7g?view_as=subscriber">
                 <span class="icon">
                     <i class="fab fa-wrapper fa-youtube"></i>
                 </span>
@@ -159,80 +187,126 @@
 </div>
     <br>
     <h4 class="u-center animated fadeIns">Discography</h4><div class="divider"></div>
-    <div class="grid grid-cols-2 grid-gap-5 u-center">
-    <div class="c" >
+    <div class="u-center divTable" style="width: 90%;" >
+        <div class="divTableBody">
+        <div class="divTableRow">
+        <div class="divTableCell">
             <div class="u-center">
-                 <img style="border-style:solid;"src="https://i.ytimg.com/vi/FhdoUOkWTGc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBGntjbZXyGuUsxs2yxZqSkM1QdTw"/>
-                 <a class="u-text-center"  style="position:relative;left:10px;">
-                     <h6 style="position:relative;bottom:5px;">In The Future</h6>
-                     <div style="position:relative;bottom:10px;" class="tag-container">
+                 <img  height=150px width=300px style="border-style:solid;"src="https://i.ytimg.com/vi/FhdoUOkWTGc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBGntjbZXyGuUsxs2yxZqSkM1QdTw"/>
+                 <a class="u-text-center">
+                     <h6>In The Future</h6>
+                     <div  class="tag-container">
                      <div class="tag tag--link">2020</div>
                      <div class="tag tag--link">EDM</div>
                      </div>
                  </a>
             </div>
-    </div>
-    <div class="c">
-        <div class="u-center">
-        <img style="border-style:solid;"src="https://i.ytimg.com/vi/ZtmAvqqnWE0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD4FiLhXQXsl0PCQDkWqFxQQX2zrw"/>
-        <a class="u-text-center"  style="position:relative;left:10px;">
-            <h6 style="position:relative;bottom:5px;">Just A Moment</h6>
-            <div style="position:relative;bottom:10px;" class="tag-container">
-                <div class="tag tag--link">2020</div>
-                <div class="tag tag--link">Dubstep</div>
-            </div>
-        </a>
-    </div>
-    </div>
-    <div class="c">
-        <div class="u-center">
-        <img style="border-style:solid;"src="https://i.ytimg.com/vi/uyhnz1ly3a8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB4Xdxg6sN3-vuW5pqDuheMw6SCvg"/>
-        <a class="u-text-center"  style="position:relative;left:10px;">
-            <h6 style="position:relative;bottom:5px;">Still in it</h6>
-            <div style="position:relative;bottom:10px;" class="tag-container">
-                <div class="tag tag--link">2020</div>
-                <div class="tag tag--link">EDM</div>
-            </div>
-        </a>
-    </div>
-    </div>
-    <div class="c">
-        <div style="position:relative;left:40px;" class="u-center">
-        <img style="border-style:solid;"src="https://i.ytimg.com/an_webp/V3M2rCmgK0o/mqdefault_6s.webp?du=3000&sqp=CLrwgP0F&rs=AOn4CLA9zVaGBW_n2Z9I3CJsCVLflgqFsA"/>
-        <a class="u-text-center"  style="position:relative;left:20px;">
-            <h6 style="position:relative;bottom:5px;">FNAF 4 Song Remix </h6>
-            <div style="position:relative;bottom:10px;" class="tag-container">
-                <div class="tag tag--link">2020</div>
-                <div class="tag tag--link">Dubstep</div>
-                <div class="tag tag--link">Remix</div>
-            </div>
-        </a>
-    </div>
-    </div>
-    <div class="c">
-        <div style="position:relative;right:25px;" class="u-center">
-            <img style="border-style:solid;"src="https://i.ytimg.com/vi/LV3QFSsM5tc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBO-zciceS8Ksg82K9IgDCW20pINw"/>
-            <a class="u-text-center"  style="position:relative;left:10px;">
-                <h6 style="position:relative;bottom:5px;">Float </h6>
-                <div style="position:relative;bottom:10px;" class="tag-container">
-                    <div class="tag tag--link">2020</div>
-                    <div class="tag tag--link">EDM</div>
-                </div>
-            </a>
         </div>
-    </div>
-    <div class="c">
-        <div class="u-center">
-            <img style="border-style:solid;"src="https://i.ytimg.com/vi/U6kyF8aQkpc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLALSL1oy_OGaa9_0RMgHDUbqpN4fA"/>
-            <a class="u-text-center"  style="position:relative;left:50px;">
-                <h6 style="position:relative;bottom:5px;">Trapped </h6>
-                <div style="position:relative;bottom:10px;" class="tag-container">
-                    <div class="tag tag--link">2020</div>
-                    <div class="tag tag--link">Dubstep</div>
-                </div>
-            </a>
+        <div class="divTableCell">
+             <div class="u-center">
+                <img  height=150px width=270px style="border-style:solid;"src="https://i.ytimg.com/vi/ZtmAvqqnWE0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD4FiLhXQXsl0PCQDkWqFxQQX2zrw"/>
+                <a class="u-text-center" >
+                    <h6 >Just A Moment</h6>
+                    <div class="tag-container">
+                        <div class="tag tag--link">2020</div>
+                        <div class="tag tag--link">Dubstep</div>
+                    </div>
+                </a>
+            </div>
         </div>
-    </div>
-</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">
+            <div class="u-center">
+                <img height=150px width=300px style="border-style:solid;"src="https://i.ytimg.com/vi/uyhnz1ly3a8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB4Xdxg6sN3-vuW5pqDuheMw6SCvg"/>
+                <a class="u-text-center">
+                    <h6>Still in it</h6>
+                    <div class="tag-container">
+                        <div class="tag tag--link">2020</div>
+                        <div class="tag tag--link">EDM</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="divTableCell">
+             <div class="u-center">
+                <img height=150px width=270px style="border-style:solid;"src="https://i.ytimg.com/an_webp/V3M2rCmgK0o/mqdefault_6s.webp?du=3000&sqp=CPTdiv0F&rs=AOn4CLDxlM7TNzIHT3ysIC5fjvDR_aRrcA"/>
+                <a class="u-text-center">
+                    <h6>FNAF 4 Song Remix </h6>
+                    <div class="tag-container">
+                        <div class="tag tag--link">2020</div>
+                        <div class="tag tag--link">Dubstep</div>
+                        <div class="tag tag--link">Remix</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">
+            <div class="u-center">
+                <img height=150px width=300px style="border-style:solid;"src="https://i.ytimg.com/vi/LV3QFSsM5tc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBO-zciceS8Ksg82K9IgDCW20pINw"/>
+                <a class="u-text-center">
+                    <h6>Float </h6>
+                    <div class="tag-container">
+                        <div class="tag tag--link">2020</div>
+                        <div class="tag tag--link">EDM</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="divTableCell">
+            <div class="u-center">
+                <img height=150px width=270px style="border-style:solid;"src="https://i.ytimg.com/vi/U6kyF8aQkpc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLALSL1oy_OGaa9_0RMgHDUbqpN4fA"/>
+                <a class="u-text-center">
+                    <h6>Trapped </h6>
+                    <div class="tag-container">
+                        <div class="tag tag--link">2020</div>
+                        <div class="tag tag--link">Dubstep</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">&nbsp;</div>
+        <div class="divTableCell">&nbsp;</div>
+        </div>
+        </div>
+        </div>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
     <br>
 </html>
