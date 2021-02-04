@@ -65,7 +65,9 @@ nunito {
 #ava {
 	background: #00FEF3 !important;
 }
-
+.fullscreen {
+    height: auto !important;
+}
 #avaimg {
 	max-width: 100% !important;
 	vertical-align: top !important;
