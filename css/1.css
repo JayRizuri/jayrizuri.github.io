@@ -60,7 +60,9 @@ nunito {
 .nav-item a {
 	padding: .05rem 0.1rem !important;
 }
-
+.navbar-nav {
+    flex-direction: row !important;
+}
 #ava {
 	background: #00FEF3 !important;
 }
