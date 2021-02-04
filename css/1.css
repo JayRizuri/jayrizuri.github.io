@@ -1,0 +1,80 @@
+.iconA {
+  width: 50px
+                    height 50px;
+}
+
+.stroke {
+  color: black;
+  text-shadow: -2px -2px 0 #00FEF3, 2px -2px 0 #00FEF3, -2px 2px 0 #00FEF3, 2px 2px 0 #00FEF3;
+}
+
+.icon {
+  color: 00FEF3;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+:root {
+  --main-bg-color: #34343434;
+  --main-body-element-color: #252525;
+}
+
+body {
+  background-color: #343434;
+  color: white;
+  line-height: 1.8;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+nunito {
+  font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  letter-spacing: .01rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+
+.head {
+  background-color: #343434;
+}
+
+.avatar.avatar--xlarge {
+  position: relative;
+  top: 4px;
+  font-size: 10rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.avatar.avatar--xlarge1 {
+  position: relative;
+  top: 15px;
+  font-size: 10.5rem;
+  height: 10.5rem;
+  width: 10.5rem;
+}
+
+.nav-item a {
+  padding: .05rem 0.1rem;
+}
+
+.header-nav {
+  background-color: #252525 !important;
+}
+
+#ava {
+  background: #00FEF3;
+}
+
+#avaimg {
+  max-width: 200%;
+  height: 200%;
+  position: relative;
+  right: 20px;
+}
+
+#hb {
+  height: 70vh;
+  background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg);
+}
