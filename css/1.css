@@ -1,5 +1,5 @@
 :root {
-	--cirrus-dark: #252525;
+	--cirrus-dark: #252525 !important;
 }
 .iconA {
 	width: 50px !important;
@@ -59,10 +59,6 @@ nunito {
 
 .nav-item a {
 	padding: .05rem 0.1rem !important;
-}
-
-.header-nav {
-	background-color: #252525 !important !important;
 }
 
 #ava {
