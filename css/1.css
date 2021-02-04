@@ -3,77 +3,77 @@
 	height 50px !important;
 }
 .stroke {
-  color: black !important;
-  text-shadow: -2px -2px 0 #00FEF3, 2px -2px 0 #00FEF3, -2px 2px 0 #00FEF3, 2px 2px 0 #00FEF3 !important;
+	color: black !important;
+	text-shadow: -2px -2px 0 #00FEF3, 2px -2px 0 #00FEF3, -2px 2px 0 #00FEF3, 2px 2px 0 #00FEF3 !important;
 }
 
 .icon {
-  color: 00FEF3 !important;
+	color: 00FEF3 !important;
 }
 
 .selector-for-some-widget {
-  box-sizing: content-box !important;
+	box-sizing: content-box !important;
 }
 
 :root {
-  --main-bg-color: #34343434 !important;
-  --main-body-element-color: #252525 !important;
+	--main-bg-color: #34343434 !important;
+	--main-body-element-color: #252525 !important;
 }
 
 body {
-  background-color: #343434 !important;
-  color: white !important;
-  line-height: 1.8 !important;
-  font-size: 1rem !important;
-  font-weight: 400 !important;
+	background-color: #343434 !important;
+	color: white !important;
+	line-height: 1.8 !important;
+	font-size: 1rem !important;
+	font-weight: 400 !important;
 }
 
 nunito {
-  font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
-  letter-spacing: .01rem !important;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.004) !important;
+	font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+	letter-spacing: .01rem !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.004) !important;
 }
 
 .head {
-  background-color: #343434 !important;
+	background-color: #343434 !important;
 }
 
 .avatar.avatar--xlarge {
-  position: relative !important;
-  top: 4px !important;
-  font-size: 10rem !important;
-  height: 10rem !important;
-  width: 10rem !important;
+	position: relative !important;
+	top: 4px !important;
+	font-size: 10rem !important;
+	height: 10rem !important;
+	width: 10rem !important;
 }
 
 .avatar.avatar--xlarge1 {
-  position: relative !important;
-  top: 15px !important;
-  font-size: 10.5rem !important;
-  height: 10.5rem !important;
-  width: 10.5rem !important;
+	position: relative !important;
+	top: 15px !important;
+	font-size: 10.5rem !important;
+	height: 10.5rem !important;
+	width: 10.5rem !important;
 }
 
 .nav-item a {
-  padding: .05rem 0.1rem !important;
+	padding: .05rem 0.1rem !important;
 }
 
 .header-nav {
-  background-color: #252525 !important !important;
+	background-color: #252525 !important !important;
 }
 
 #ava {
-  background: #00FEF3 !important;
+	background: #00FEF3 !important;
 }
 
 #avaimg {
-  max-width: 200% !important;
-  height: 200% !important;
-  position: relative !important;
-  right: 20px !important;
+	max-width: 200% !important;
+	height: 200% !important;
+	position: relative !important;
+	right: 20px !important;
 }
 
 #hb {
-  height: 70vh !important;
-  background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg) !important;
+	height: 70vh !important;
+	background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg) !important;
 }
