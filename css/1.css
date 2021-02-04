@@ -67,7 +67,8 @@ nunito {
 }
 
 #avaimg {
-	max-width: 100% !important
+	max-width: 100% !important;
+	vertical-align: top !important;
 }
 
 .hero-body {
