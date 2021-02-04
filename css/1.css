@@ -67,13 +67,10 @@ nunito {
 }
 
 #avaimg {
-	max-width: 200% !important;
-	height: 200% !important;
-	position: relative !important;
-	right: 20px !important;
+	max-width: 100% !important
 }
 
-#hb {
+.hero-body {
 	height: 70vh !important;
 	background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg) !important;
 }
