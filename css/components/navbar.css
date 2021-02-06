@@ -1,0 +1,74 @@
+@import "animations.css";
+
+.navbar {
+	width: var(--js-screen-width);
+}
+
+/*
+	--- colors
+*/
+
+.navbar.navbar-dark {
+    background-color: var(--rizuri-header) !important;
+}
+
+.navbar.navbar-bg {
+	background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg);
+}
+
+/*
+	--- Animations
+*/
+
+.navbar-nav {
+	animation: slide-in-left 0.6s cubic-bezier(.25,.46,.45,.94);
+}
+
+.header-pre h3, .header-pre h1 {
+	z-index: 1;
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+	animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+}
+
+.header-pre img {
+	z-index: 2;
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	border-radius: 50%;
+	max-width: 15rem;
+	border: 5px var(--rizuri-accent) solid !important;
+}
+
+/*
+	--- Spacing
+*/
+
+
+.nav-item {
+    margin: 0 1rem 0 0;
+}
+
+.nav-item a {
+    padding: 0;
+}
+
+.header-pre {
+	display: block !important;
+}
+
+.navbar-brand {
+	font-family:
+		"Nunito Sans",
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		"Helvetica Neue",
+		Arial,
+		sans-serif,
+		"Apple Color Emoji",
+		"Segoe UI Emoji",
+		"Segoe UI Symbol";
+	letter-spacing: .01rem;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
