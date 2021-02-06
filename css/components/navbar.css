@@ -1,5 +1,3 @@
-@import "animations.css";
-
 .navbar {
 	width: var(--js-screen-width);
 }
