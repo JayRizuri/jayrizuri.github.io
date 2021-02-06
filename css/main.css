@@ -1,0 +1,33 @@
+@import "1.css";
+@import "animations.css";
+@import "components.css";
+@import "fonts.css";
+
+:root {
+	--rizuri-accent: #00FEF3;
+	--rizuri-accent-2: #13938E;
+	--rizuri-header: #262828;
+	--rizuri-bg: #262828;
+	--rizuri-link: #DD9AC2;
+	--rizuri-link: #EAC0D9;
+}
+
+
+body {
+	text-align: center;
+	background-color: var(--rizuri-bg);
+	color: white;
+}
+a:link[target=_blank], a:visited[target=_blank], a:active[target=_blank], a:hover[target=_blank] {
+	text-decoration: none;
+}
+a:link, a:visited, a:active {
+	font-weight: 700;
+	color: var(--rizuri-link);
+	background-color: transparent;
+}
+a:hover {
+	font-weight: 700;
+	color: var(--rizuri-link-hover);
+	background-color: transparent;
+}
