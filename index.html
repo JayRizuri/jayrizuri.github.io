@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link href="favicon.ico" rel="shortcut icon">
-		<link href="favicon.ico" rel="icon">
-		<link href="./css/1.css" rel="stylesheet">
-		<link href="./css/animations.css" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/29f9977088.js">
-		</script>
-		<meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
-		<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
-		</script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
-		</script>
-		<link href="https://unpkg.com/cirrus-ui@0.5.5/dist/cirrus.min.css" rel="stylesheet">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://unpkg.com/cirrus-ui@0.5.5/dist/cirrus.min.css" rel="stylesheet">
-		<meta content="website" property="og:type">
-		<meta content="https://jayrizuri.samidb.xyz/" property="og:url">
-		<meta content="EDM" property="og:site_name">
-		<meta content="Jay Rizuri" property="og:title">
-		<meta content="Music Artist / Game Developer" property="og:description">
-		<meta content="https://pbs.twimg.com/profile_images/1338468750199300097/rd7ZaXE3_400x400.jpg" property="og:image">
-		<meta content="400" property="og:image:width">
-		<meta content="400" property="og:image:height">
-		<meta content="#00FEF3" name="theme-color">
+		<!--
+		--- JS
+		-->
+		
+		<script 
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+			crossorigin="anonymous"
+		></script>
+		
+		<script src="https://kit.fontawesome.com/29f9977088.js" crossorigin="anonymous"></script>
+		
+		<!--
+		--- CSS
+		-->
+		
+		<link href="favicon.ico" rel="shortcut icon" />
+		
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link href="./css/main.css" rel="stylesheet" />
+		
+		<!--
+		--- Meta Tags
+		-->
+		
+		<meta property="og:type" content="website" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		
+		<title>Jay Rizuri</title>
+		
+		<meta name="title" content="Jay Rizuri" />
+		<meta name="description" content="Music Artist / Game Developer" />
+		<meta name="theme-color" content="#00FEF3" />
+		
+		<meta property="og:title" content="Jay Rizuri" />
+		<meta property="og:description" content="Music Artist / Game Developer" />
+		<meta property="og:url" content="https://jayrizuri.samidb.xyz/" />
+		<meta property="og:site_name" value="EDM" />
+		
+		<meta property="og:image" content="https://pbs.twimg.com/profile_images/1338468750199300097/rd7ZaXE3_400x400.jpg" />
+		<meta property="og:image:width" content="400" />
+		<meta property="og:image:height" content="400" />
+		
+		<meta property="twitter:title" content="Jay Rizuri" />
+		<meta property="twitter:description" content="Music Artist / Game Developer" />
+		<meta property="twitter:url" content="https://jayrizuri.samidb.xyz/" />
+		<meta property="twitter:image" content="https://pbs.twimg.com/profile_images/1338468750199300097/rd7ZaXE3_400x400.jpg" />
+		<meta property="twitter:card" content="summary" />
+		
+		<meta name="twitter:site" content="@JayRizuri" />
+		<meta name="twitter:creator" content="@JayRizuri" />
+		<meta
+			  content="#00FEF3" name="theme-color">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
 		</script>
 		<script src="https://kit.fontawesome.com/29f9977088.js">
 		</script>
-		<title></title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand">Jay Rizuri</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<a class="navbar-brand" href="#">Jay Rizuri</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
 							<a class="nav-link active" href="https://github.com/JayRizuri"><span class="icon"><i class="fab fa-wrapper fa-github"></i></span></a>
@@ -60,28 +103,153 @@
 				</div>
 			</div>
 		</nav>
-		<div class="hero fullscreen hero-img parallax-img" id="hb splash-img">
-			<div class="hero-body">
-				<div class="content u-text-center">
-					<figure class="avatar avatar--xlarge1 fade-in-left" id="ava">
-						<figure class="avatar avatar--xlarge fade-in-left" id="ava">
-							<img id="avaimg" src="https://pbs.twimg.com/profile_images/1338468750199300097/rd7ZaXE3_400x400.jpg">
-						</figure>
-					</figure>
-					<h1 class="stroke slide-left uppercase title">
-						Jay Rizuri
-					</h1>
-					<h3 class="stroke slide-left1 uppercase sub-title">
-						Music Artist / Game Developer
-					</h3>
-				</div>
+		<divider></divider>
+		<nav class="navbar navbar-expand-lg navbar-bg">
+			<div class="container-fluid header-pre">
+				<img src="https://pbs.twimg.com/profile_images/1338468750199300097/rd7ZaXE3_400x400.jpg" />
+				<h1 class="text-outline slide-left uppercase title">
+					Jay Rizuri
+				</h1><br>
+				<h3 class="text-outline slide-left1 uppercase sub-title ">
+					Music Artist / Web Developer
+				</h3>
 			</div>
-		</div><br>
-		<h4 class="u-text-center u-center animated fadeIns">
-			About Me
-		</h4>
-		<div class="u-text-center u-center animated fadeIns">
-			I am an EDM/Pop artist from the US
-		</div>
+		</nav>
+		<divider class="end-header"></divider>
+		<span class="par">
+			<span class="lbl-divider">About Me</span>
+			<div>
+				I am a musician/web developer from the US.<br>
+				<br>
+				I started in 2017, making simple remixes of songs like
+					<a href="https://youtu.be/0FCvzsVlXpQ">
+						Toby Fox - Megalovania.
+					</a>
+				Eventually I got a
+					<a href="https://www.amazon.com/a/dp/B089CP4RKS/">
+						Midi Keyboard
+					</a>
+				and started making my own compositions.<br>
+				At that point, I decided to unlist all of my previous songs and start using my real name as my artist name.<br>
+				<br>
+				In early 2017, I also started making web apps like discord bots.<br>
+				Ayumi, my first discord bot, was coded in JavaScript 
+					<a href="https://nodejs.org/en/">
+						(NodeJS)
+					</a>
+				, originally using 
+					<a href="https://www.npmjs.com/package/discord.io">
+						discord.io
+					</a>
+				, but was later re-written to use
+					<a href="https://discord.js.org">
+						discord.js
+					</a>
+				.<br>
+				<br>
+				Currently I run a discord bot named Sami, along with a bot for
+					<a href="https://sites.google.com/view/cognewscentral/home">
+						C.O.G News Central
+					</a>
+				.<br>
+				More information about Sami can be found 
+					<a href="https://samidb.xyz/">
+						here!
+					</a>
+				<br>
+				<br>
+			</div>
+			<span class="lbl-divider">Tools I Use</span>
+				<br>
+			<div>
+				<span class="lbl-divider-short">Music</span>
+				<a
+				   href="https://www.image-line.com/fl-studio/"
+				   target="_blank">
+					<img
+						 src="https://www.image-line.com/wp-content/themes/intracto/build/images/fl-header-logo.png"
+						 alt="FL Studio 20"
+						 width="60"
+						 height="60"/>
+				</a>
+				<a
+				   href="https://xferrecords.com/products/serum"
+				   target="_blank">
+					<img
+						 src="https://cdn.xferrecords.com/assets/serum/serumall-b4e3f2c19f47e68cff7b1767eb7af20d629844ba1dfae517ed57ee796bc0b8d9.gif"
+						 alt="xfer Serum"
+						 width="60"
+						 height="60"/>
+				</a>
+				<a
+				   href="https://www.lennardigital.com/sylenth1/"
+				   target="_blank">
+					<img
+						 src="https://www.lennardigital.com/home/Sylenth1v30Thumb.png"
+						 alt="xfer Serum"
+						 width="60"
+						 height="60"/>
+				</a><br>
+				<br>
+				<span class="lbl-divider-short">Programming</span>
+				<a
+				   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+				   target="_blank">
+					<img
+						 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+						 alt="JavaScript"
+						 width="60"
+						 height="60"
+					/>
+				</a>
+				<a
+				   href="https://www.python.org"
+				   target="_blank">
+					<img 
+						 src="http://clipart-library.com/images_k/python-logo-transparent/python-logo-transparent-5.png"
+						 alt="python"
+						 width="60"
+						 height="60"/>
+				</a>
+				<a
+				   href="https://nodejs.org"
+				   target="_blank">
+					<img
+						 src="https://nodejs.org/static/images/logo-hexagon.png"
+						 alt="nodejs"
+						 width="60"
+						 height="60"/>
+				</a>
+				<a
+				   href="https://discord.js.org"
+				   target="_blank">
+					<img
+						 src="https://discord.js.org/static/logo-square.png"
+						 alt="discord.js"
+						 width="60"
+						 height="60"/>
+				</a>
+				<a
+				   href="https://getbootstrap.com"
+				   target="_blank">
+					<img
+						 src="https://cdn.freebiesupply.com/logos/large/2x/bootstrap-4-logo-png-transparent.png"
+						 alt="bootstrap"
+						 width="60"
+						 height="60"/>
+				</a>
+				<br>
+			</div>
+		</span>
+		<br>
+		<br>
+		<br>
+		<br>
+		<divider></divider>
+		<nav class="navbar bg-dark navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">©2021 Jay Rizuri</a>
+			</div>
+		</nav>
 	</body>
 </html>
