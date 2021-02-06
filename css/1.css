@@ -56,12 +56,18 @@ nunito {
 	height: 10.5rem !important;
 	width: 10.5rem !important;
 }
-
+.pagetitle {
+	margin: 0 5rem !important;
+}
+#discography {
+	margin: 0 5rem 0 5rem !important;
+}
 .nav-item a {
 	padding: .05rem 0.1rem !important;
 }
 .navbar-nav {
     flex-direction: row !important;
+	margin: 0 !important;
 }
 #ava {
 	background: #00FEF3 !important;
@@ -77,4 +83,5 @@ nunito {
 .hero-body {
 	height: 70vh !important;
 	background: url(https://raw.githubusercontent.com/JayRizuri/jayrizuri.github.io/master/C761CF81-8205-4B7A-B2A9-E18D5EDD0406.jpeg) !important;
+	border-bottom: .3rem solid rgba(173,173,173,.5);
 }

@@ -1,0 +1,21 @@
+.fab {
+    font-size: 1.5rem;
+}
+#discography {
+	margin: 0 !important;
+}
+.table tfoot th, .table thead th {
+    padding: 0.4rem !important;
+}
+.table td, .table th {
+    padding: 0.1rem !important;
+}
+.table-responsive {
+	display: flex;
+	float: right;
+    width: 85%;
+}
+.remixS,
+.originalS {
+	    margin: -3rem 0;
+}
