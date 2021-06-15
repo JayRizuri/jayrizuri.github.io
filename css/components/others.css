@@ -33,15 +33,15 @@
 } 
 
 .stripes {
-    padding: 0 0 0 0.75vh;
+    padding: 0 0 0 0.75vh !important;
 	background: repeating-linear-gradient(
 		45deg,
 		var(--rizuri-bg),
 		var(--rizuri-bg) 7px,
 		var(--rizuri-bg-2) 7px,
 		var(--rizuri-bg-2) 15px
-	   );
-	width: 120%;
-	margin: 0 0 0 -5vw;
-	right: 3vw;
+	   ) !important;
+	width: 120% !important;
+	margin: 0 0 0 -5vw !important;
+	right: 3vw !important;
 }
