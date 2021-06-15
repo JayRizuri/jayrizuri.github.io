@@ -10,7 +10,9 @@
     flex-flow: column;
 }
 .par div {
-    width: 120%;
+    padding: 0 0 0 1vh;
+    margin: 0;
+    background: var(--rizuri-bg);
 }
 
 .icon {
@@ -29,3 +31,17 @@
 .title {
     font-size: 3.3rem;
 } 
+
+.stripes {
+    padding: 0 0 0 0.75vh;
+	background: repeating-linear-gradient(
+		45deg,
+		var(--rizuri-bg),
+		var(--rizuri-bg) 7px,
+		var(--rizuri-bg-2) 7px,
+		var(--rizuri-bg-2) 15px
+	   );
+	width: 120%;
+	margin: 0 0 0 -5vw;
+	right: 3vw;
+}
