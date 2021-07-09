@@ -4,12 +4,12 @@
 @import "fonts.css";
 
 :root {
-	--rizuri-accent: #00FEF3;
-	--rizuri-accent-2: #13938E;
+	--rizuri-accent: #DD9AC2;
+	--rizuri-accent-2: #b8719b;
 	--rizuri-header: #12171D;
 	--rizuri-bg: #262828;
 	--rizuri-bg-2: #0B1119;
-	--rizuri-link: #DD9AC2;
+	--rizuri-link: #80cee1;
 	--rizuri-link: #EAC0D9;
 }
 
