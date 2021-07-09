@@ -13,7 +13,11 @@
 	--rizuri-link: #EAC0D9;
 }
 
-
+li.nav-item {
+    vertical-align: middle;
+    justify-content: center;
+    align-self: center;
+}
 body {
 	text-align: center;
 	background-color: var(--rizuri-bg);
